@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/pokemonSearcher/static/css/main.e6c13ad2.css",
+    "main.js": "/pokemonSearcher/static/js/main.cd7ff2f6.js",
+    "index.html": "/pokemonSearcher/index.html",
+    "main.e6c13ad2.css.map": "/pokemonSearcher/static/css/main.e6c13ad2.css.map",
+    "main.cd7ff2f6.js.map": "/pokemonSearcher/static/js/main.cd7ff2f6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.cd7ff2f6.js"
+  ]
+}
