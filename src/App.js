@@ -46,6 +46,12 @@ function App() {
 
   return (
     <div>
+      <div>
+        <input value={copyable} onChange={handleTextChange} name="pokemonDexNumbers" className="copyable"></input>
+      </div>
+      <button onClick={handleCopy} className="copy">
+        Copy dex numbers
+      </button>
       <input value={input} onChange={handleTextChange} name="searchPokemon"></input>
       {pokemonResults.map((e) => {
         return (
@@ -54,12 +60,6 @@ function App() {
             pokemonName={e}
           />);
       })}
-      <div>
-        <input value={copyable} onChange={handleTextChange} name="pokemonDexNumbers" className="copyable"></input>
-      </div>
-      <button onClick={handleCopy} className="copy">
-        Copy dex numbers
-      </button>
     </div>
   );
 }
