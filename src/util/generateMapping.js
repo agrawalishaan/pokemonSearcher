@@ -13,7 +13,7 @@ for (let i = 1; i < lines.length; i++) {
   if (pokemonName.slice(0, 5) === 'Mega ') {
     continue;
   }
-  pokemonMap[pokemonName] = dexNumber;
+  pokemonMap[pokemonName.toLowerCase()] = dexNumber;
 }
 
 console.log(pokemonMap);
