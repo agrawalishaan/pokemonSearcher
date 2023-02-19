@@ -1,0 +1,8 @@
+.copy, .copyable {
+  width: 90%;
+
+}
+
+.copyable {
+  box-sizing: border-box;
+}

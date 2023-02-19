@@ -1,11 +1,4 @@
-import pokemonMapping from '../../data/pokemonMapping.json';
-export default function PokemonButton({ pokemonName }) {
-
-  const handleClick = (e) => {
-    const clickedPokemon = e.target.value;
-    const pokedexNumber = pokemonMapping[clickedPokemon];
-    console.log(pokedexNumber)
-  }
+export default function PokemonButton({ handleClick, pokemonName }) {
 
   return (
     <button
